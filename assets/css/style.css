@@ -163,9 +163,6 @@ nav a:hover{
     flex:2;
 }
 
-#geral aside {
-    flex:1;
-}
 
 .widget_title {
     margin-top: 30px; 
@@ -185,10 +182,20 @@ nav a:hover{
     margin-top: 10px;
 }
 
+.lastast-news {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside-section {
+    max-width: 330px;
+}
+
 .widget_body_box_divisoes {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .box_departments {
